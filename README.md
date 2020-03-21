@@ -4,12 +4,9 @@ Select user for git
 ### Installation
 
 ```
+go get -u -v github.com/pigeonligh/git-select
 go install github.com/pigeonligh/git-select/cmd/git-select
-```
-
-or 
-
-```
+# or 
 go install github.com/pigeonligh/git-select/cmd/gsel
 ```
 
@@ -37,10 +34,6 @@ Select config:
 
 ```
 git-select -t config-tag
-```
-
-or (for global)
-
-```
+# or (for global)
 git-select -t config-tag -g
 ```
